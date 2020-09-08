@@ -3,7 +3,7 @@
 # For AWS CloudFormation: CFT
 # For Kubernetes: K8S
 
-template_type: CFT
+template_type: TF
 
 # If template_type value is CFT, set cft_parameters (optional)
 # variable_values is an array of name/value pairs, which identifies the
