@@ -103,8 +103,6 @@ resource "aws_key_pair" "auth" {
 }
 
 resource "aws_instance" "web" {
-  # The connection block tells our provisioner how to
-  # communicate with the resource (instance)
   connection {
     # The default username for our AMI
     user = "ubuntu"
